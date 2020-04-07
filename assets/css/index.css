@@ -1,0 +1,52 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.green {
+    color: #B2DB34 !important;
+}
+
+.orange {
+    color: #FD7634 !important;
+}
+
+.dot {
+    border-bottom: 1px dashed;
+}
+
+.orange.dot {
+    border-color: #FD7634;
+}
+
+a.dot {
+    text-decoration: none;
+}
+
+section#info {
+    background: url(../img/big-cloud-white.svg) no-repeat -65% 25%,
+    transparent url(../img/big-cloud-white.svg) no-repeat 150% 75%;
+    background-size: 50%;
+}
+
+.wrapper-container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+@media (min-width: 576px) {
+    section#info {
+        background: url(../img/big-cloud-white.svg) no-repeat -20% 28%,
+        transparent url(../img/big-cloud-white.svg) no-repeat 113% 100%;
+    }
+    .wrapper-container {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+
