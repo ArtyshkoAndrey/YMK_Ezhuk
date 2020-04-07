@@ -36,10 +36,50 @@ section#info {
     background-size: 50%;
 }
 
+section#program {
+    background: url(../img/big-cloud-white.svg) no-repeat -60% 30%, transparent url(../img/big-cloud-white.svg) no-repeat 170% 60%;
+    background-size: 50%;
+}
+
 .wrapper-container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+}
+.liner-gradient-green {
+    background: linear-gradient(64.37deg, #28A377 5.07%, #B2DB34 91.82%);
+    box-shadow: 7px 7px 20px rgba(169, 215, 57, 0.38);
+    border-radius: 33px;
+}
+.liner-gradient-green:active, .liner-gradient-green:hover {
+    background: linear-gradient(64.37deg, #29916C 5.07%, #90ad36 91.82%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.liner-gradient-orange {
+    background: linear-gradient(248.22deg, #FFB800 0%, #B2DB34 89.88%);
+    box-shadow: 7px 7px 20px rgba(255, 184, 0, 0.32);
+    border-radius: 33px;
+}
+.liner-gradient-orange:active, .liner-gradient-orange:hover {
+    background: linear-gradient(248.22deg, #FFB800 0%, #B2DB34 89.88%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+
+.liner-gradient-red {
+    background: linear-gradient(248.08deg, #C9372F 0%, #FFB800 89.88%);
+    box-shadow: 7px 7px 20px rgba(201, 55, 47, 0.28);
+    border-radius: 33px;
+}
+.liner-gradient-red:active, .liner-gradient-red:hover {
+    background: linear-gradient(248.08deg, #C9372F 0%, #FFB800 89.88%);
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 
 
@@ -48,6 +88,9 @@ section#info {
     section#info {
         background: url(../img/big-cloud-white.svg) no-repeat -20% 28%,
         transparent url(../img/big-cloud-white.svg) no-repeat 113% 100%;
+    }
+    section#program {
+        background: url(../img/big-cloud-white.svg) no-repeat -25% 30%, transparent url(../img/big-cloud-white.svg) no-repeat 135% 60%;
     }
     .wrapper-container {
         width: 75%;
