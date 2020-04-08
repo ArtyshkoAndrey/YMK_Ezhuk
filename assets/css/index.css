@@ -6,8 +6,16 @@ body {
     color: #B2DB34 !important;
 }
 
+.green-1 {
+    color: #28A352 !important;
+}
+
 .orange {
     color: #FD7634 !important;
+}
+
+.orange-1 {
+    color: #FFB800 !important
 }
 
 .black {
@@ -38,6 +46,17 @@ section#info {
 
 section#program {
     background: url(../img/big-cloud-white.svg) no-repeat -60% 30%, transparent url(../img/big-cloud-white.svg) no-repeat 170% 60%;
+    background-size: 50%;
+}
+
+section#about h3 {
+    background: url('../img/Group 62.svg') no-repeat 0% -11%;
+    background-size: 100%;
+    padding-top: 100px !important;
+}
+
+section#about {
+    background: url(../img/big-cloud-white.svg) no-repeat -55% 19%, transparent url(../img/big-cloud-white.svg) no-repeat 143% 92%;
     background-size: 50%;
 }
 
@@ -90,12 +109,25 @@ section#program {
         transparent url(../img/big-cloud-white.svg) no-repeat 113% 100%;
     }
     section#program {
-        background: url(../img/big-cloud-white.svg) no-repeat -25% 30%, transparent url(../img/big-cloud-white.svg) no-repeat 135% 60%;
+        background: url(../img/big-cloud-white.svg) no-repeat -25% 30%, transparent url(../img/big-cloud-white.svg) no-repeat 120% 60%;
+    }
+    section#about {
+        background: none;
     }
     .wrapper-container {
         width: 75%;
         margin-right: auto;
         margin-left: auto;
+    }
+
+}
+
+@media (min-width: 768px) {
+    section#about h3 {
+        background: url('../img/elipse.png') no-repeat;
+        background-size: contain;
+        padding-top: .5rem!important;
+        margin-top: 3rem!important
     }
 }
 
