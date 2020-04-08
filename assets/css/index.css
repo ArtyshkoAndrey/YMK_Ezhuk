@@ -100,6 +100,18 @@ section#about {
     -ms-transition: background-color 1000ms linear;
     transition: background-color 1000ms linear;
 }
+.m-h-850 {
+    min-height: 850px !important;
+}
+
+section#lamp {
+    background: url("../img/Group 66.svg") no-repeat center;
+    background-size: auto;
+    min-height: 850px;
+    height: 100%;
+    background-position-x: 45%;
+    background-position-y: 100%;
+}
 
 
 
@@ -114,11 +126,14 @@ section#about {
     section#about {
         background: none;
     }
-    .wrapper-container {
-        width: 75%;
-        margin-right: auto;
-        margin-left: auto;
+    section#lamp {
+        background: url("../img/Group 66.svg") no-repeat center;
+        background-size: auto;
+        min-height: 850px;
+        height: 100%;
+        background-position-y: 100%;
     }
+
 
 }
 
@@ -128,6 +143,11 @@ section#about {
         background-size: contain;
         padding-top: .5rem!important;
         margin-top: 3rem!important
+    }
+    .wrapper-container {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
