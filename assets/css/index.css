@@ -62,8 +62,28 @@ section#program {
     background-size: 50%;
 }
 
+#text-under-clock {
+    z-index: 100;
+    top: 50%;
+    right:0;
+    transform: translate(-25%, -50%);
+    font-size: 2rem
+}
+
+.number-step-under-image {
+    top:50%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+}
+
+.number-step-red-under-image {
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 section#about h3 {
-    background: url('../img/Group 62.svg') no-repeat 0% -11%;
+    background: url('../img/Group 62.svg') no-repeat 0% -114%;
     background-size: 100%;
     padding-top: 100px !important;
 }
@@ -73,15 +93,22 @@ section#about {
     background-size: 50%;
 }
 
+.card {
+    background: #FFFFFF;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
 .wrapper-container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 .liner-gradient-green {
-    background: linear-gradient(64.37deg, #28A377 5.07%, #B2DB34 91.82%);
+    background: linear-gradient(61.63deg, #28A377 5.07%, #B2DB34 91.82%);
     box-shadow: 7px 7px 20px rgba(169, 215, 57, 0.38);
     border-radius: 33px;
+    border: none;
 }
 .liner-gradient-green:active, .liner-gradient-green:hover {
     background: linear-gradient(64.37deg, #29916C 5.07%, #90ad36 91.82%);
@@ -94,6 +121,7 @@ section#about {
     background: linear-gradient(248.22deg, #FFB800 0%, #B2DB34 89.88%);
     box-shadow: 7px 7px 20px rgba(255, 184, 0, 0.32);
     border-radius: 33px;
+    border: none;
 }
 .liner-gradient-orange:active, .liner-gradient-orange:hover {
     background: linear-gradient(248.22deg, #FFB800 0%, #B2DB34 89.88%);
@@ -106,6 +134,7 @@ section#about {
     background: linear-gradient(248.08deg, #C9372F 0%, #FFB800 89.88%);
     box-shadow: 7px 7px 20px rgba(201, 55, 47, 0.28);
     border-radius: 33px;
+    border: none;
 }
 .liner-gradient-red:active, .liner-gradient-red:hover {
     background: linear-gradient(248.08deg, #C9372F 0%, #FFB800 89.88%);
@@ -128,6 +157,11 @@ section#lamp {
 
 section#arrows {
     background: none;
+}
+
+#section-cost {
+    background: url("../img/STAR 6.svg") -53% 25% no-repeat, url(../img/dino.svg) 148% 37% no-repeat;
+    background-size: 50%;
 }
 
 @media (min-width: 576px) {
@@ -169,6 +203,23 @@ section#arrows {
         width: 75%;
         margin-right: auto;
         margin-left: auto;
+    }
+    #text-under-clock {
+        font-size: 2.5rem;
+    }
+    .number-step-under-image {
+        top:50%;
+        left: 41%;
+        transform: translate(-50%, -50%)
+    }
+    .number-step-red-under-image {
+        top: 53%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    #section-cost {
+        background: url("../img/STAR 6.svg") -10% 0% no-repeat, url(../img/dino.svg) 114% 100% no-repeat, url("../img/pluses.png") no-repeat center, url("../img/Group.svg") no-repeat center;
     }
 }
 @media (max-width: 1356px) and (min-width: 840px) {
