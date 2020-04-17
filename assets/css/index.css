@@ -309,7 +309,7 @@ section#arrows {
     }
 
     #section-cost {
-        background: url("../img/STAR 6.svg") -10% 0% no-repeat, url(../img/dino.svg) 114% 100% no-repeat, url("../img/pluses.png") no-repeat center, url("../img/Group.svg") no-repeat center;
+        background: url("../img/STAR 6.svg") -50% 0% no-repeat, url(../img/dino.svg) 200% 100% no-repeat, url("../img/pluses.png") no-repeat center, url("../img/Group.svg") no-repeat center;
     }
 }
 @media (max-width: 1356px) and (min-width: 840px) {
@@ -324,3 +324,14 @@ section#arrows {
     }
 }
 
+@media (min-width: 1000px) {
+    #section-cost {
+        background: url("../img/STAR 6.svg") -22% 0% no-repeat, url(../img/dino.svg) 133% 100% no-repeat, url("../img/pluses.png") no-repeat center, url("../img/Group.svg") no-repeat center;
+    }
+}
+
+@media (min-width: 1400px) {
+    #section-cost {
+        background: url("../img/STAR 6.svg") -10% 0% no-repeat, url(../img/dino.svg) 114% 100% no-repeat, url("../img/pluses.png") no-repeat center, url("../img/Group.svg") no-repeat center;
+    }
+}

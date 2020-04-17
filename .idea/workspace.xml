@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8dec490-79c5-4cd4-9aef-ed48ed51430f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/scroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ymk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ymk.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -73,6 +70,7 @@
       <workItem from="1586338979692" duration="19174000" />
       <workItem from="1586433900533" duration="5440000" />
       <workItem from="1586502453822" duration="7171000" />
+      <workItem from="1587102651405" duration="2404000" />
     </task>
     <servers />
   </component>
@@ -89,11 +87,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="184" key="#HTML" timestamp="1586252288519">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="393" y="0" key="#HTML" timestamp="1587104963309">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="393" y="0" key="#HTML/0.0.1366.738@0.0.1366.738" timestamp="1587104963309" />
     <state x="552" y="184" key="#HTML/0.0.1920.1050@0.0.1920.1050" timestamp="1586252288519" />
     <state x="438" y="171" key="run.anything.popup" timestamp="1586508238104">
       <screen x="0" y="0" width="1366" height="738" />
